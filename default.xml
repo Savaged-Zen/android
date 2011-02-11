@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="korg"
+  <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 
-<remote  name="sz"
-           fetch="git://github.com/Savaged-Zen/"
+  <remote  name="sz"
+           fetch="git://github.com/"
            review="review.savaged-zen.org" />
 
-<remote  name="themes"
+  <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
-<remote  name="cm"
+  <remote  name="cm"
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
-<default revision="gingerbread"
+  <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" namme="build" remote="sz">
+  <project path="build" name="Savaged-Zen/build" remote="sz">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic" remote="sz"/>
+  <project path="bionic" name="Savaged-Zen/bionic" remote="sz"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="sz"/>
+  <project path="bootable/recovery" name="Savaged-Zen/platform_bootable_recovery" remote="sz"/>
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="development" remote="sz"/>
+  <project path="development" name="Savaged-Zen/development" remote="sz"/>
   <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="device_htc_common" remote="sz"/>
-  <project path="device/htc/passion" name="device_htc_passion" remote="sz"/>
-  <project path="device/htc/passion-common" name="device_htc_passion_common" remote="sz"/>
-  <project path="device/sample" name="device_sample" remote="sz"/>
-  <project path="device/samsung/crespo" name="device_samsung_creapo" remote="sz"/>
+  <project path="device/htc/common" name="Savaged-Zen/device_htc_common" remote="sz"/>
+  <project path="device/htc/passion" name="Savaged-Zen/device_htc_passion" remote="sz"/>
+  <project path="device/htc/passion-common" name="Savaged-Zen/device_htc_passion_common" remote="sz"/>
+  <project path="device/sample" name="Savaged-Zen/device_sample" remote="sz"/>
+  <project path="device/samsung/crespo" name="Savaged-Zen/device_samsung_creapo" remote="sz"/>
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="cm" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -41,19 +41,19 @@
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="bluetooth_bluez" remote="sz"/>
+  <project path="external/bluetooth/bluez" name="Savaged-Zen/bluetooth_bluez" remote="sz"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="external_clearsilver" remote="sz"/>
+  <project path="external/clearsilver" name="Savaged-Zen/external_clearsilver" remote="sz"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="sz"/>
+  <project path="external/e2fsprogs" name="Savaged-Zen/external_e2fsprogs" remote="sz"/>
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -62,7 +62,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-<project path="external/flac" name="CyanogenMod/android_external_flac" remote="cm" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="cm" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -79,17 +79,17 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="external_jpeg" remote="sz"/>
+  <project path="external/jpeg" name="Savaged-Zen/external_jpeg" remote="sz"/>
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" /
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="platform/external/libpng"  remote="cm"/>
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng"  remote="cm"/>
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
@@ -152,13 +152,13 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-<project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="cm" />
+  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="cm" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="cm" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="Savaged-Zen/apps_Mms" remote="sz" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -193,19 +193,19 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="sz" />
+  <project path="system/core" name="Savaged-Zen/system_core" remote="sz" />
   <project path="system/extras" name="platform/system/extras"  />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="system_netd" remote="sz"/>
-  <project path="system/vold" name="system_vold" remote="sz"/>
-  <project path="system/wlan/ti" name="system_wlan_ti" remote="sz"/>
+  <project path="system/netd" name="Savaged-Zen/system_netd" remote="sz"/>
+  <project path="system/vold" name="Savaged-Zen/system_vold" remote="sz"/>
+  <project path="system/wlan/ti" name="Savaged-Zen/system_wlan_ti" remote="sz"/>
 
-    <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="refs/heads/master" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
 
-  <project path="android" name="android" remote="sz" />
+  <project path="android" name="Savaged-Zen/android" remote="sz" />
 </manifest>
