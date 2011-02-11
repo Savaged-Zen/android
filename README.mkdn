@@ -31,7 +31,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the Savaged-Zen trees, use a command like this:
 
-    repo init -u ssh://github.com/Savaged-Zen/android.git -b gingerbread
+    repo init -u git://github.com/Savaged-Zen/android.git -b gingerbread
 
 Then to sync up:
 
