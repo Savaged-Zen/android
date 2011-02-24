@@ -18,7 +18,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="Sbuild" remote="sz">
+  <project path="build" name="build" remote="sz">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="sz"/>
