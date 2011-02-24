@@ -11,10 +11,6 @@
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
-  <remote  name="cm"
-           fetch="git://github.com/"
-           review="review.cyanogenmod.com" />
-
   <default revision="gingerbread"
            remote="korg" />
 
@@ -37,9 +33,9 @@
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="sz" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" />
+  <project path="external/bash" name="android_external_bash" remote="sz"/>
   <project path="external/bison" name="platform/external/bison" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" />
+  <project path="external/busybox" name="android_external_busybox" remote="sz" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="bluetooth_bluez" remote="sz"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
@@ -62,7 +58,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="cm" />
+  <project path="external/flac" name="android_external_flac" remote="sz" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -70,7 +66,7 @@
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
-  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" remote="cm" />
+  <project path="external/hostapd" name="android_external_hostapd" remote="sz" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
@@ -83,10 +79,10 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="sz" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng"  remote="cm"/>
+  <project path="external/libpng" name="android_external_libpng"  remote="sz"/>
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/mtpd" name="platform/external/mtpd" />
@@ -148,8 +144,8 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="cm" />
-  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="cm" />
+  <project path="packages/apps/FM" name="android_packages_apps_FM" remote="sz" />
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="sz" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -165,7 +161,7 @@
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="cm" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="sz" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -196,7 +192,7 @@
   <project path="system/vold" name="system_vold" remote="sz"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="sz"/>
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="refs/heads/master" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sz" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
