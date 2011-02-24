@@ -34,7 +34,7 @@
   <project path="device/htc/passion-common" name="device_htc_passion_common" remote="sz"/>
   <project path="device/sample" name="device_sample" remote="sz"/>
   <project path="device/samsung/crespo" name="device_samsung_creapo" remote="sz"/>
-  <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="cm" />
+  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="sz" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" />
