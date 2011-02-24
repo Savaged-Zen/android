@@ -18,10 +18,10 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="Savaged-Zen/build" remote="sz">
+  <project path="build" name="Sbuild" remote="sz">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="Savaged-Zen/bionic" remote="sz"/>
+  <project path="bionic" name="bionic" remote="sz"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="sz"/>
