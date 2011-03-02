@@ -179,8 +179,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/htc/supersonic" name="SalvageMod/vendor_htc_supersonic" remote="github" revision="master" />
-  <project path="vendor/htc/inc" name="SalvageMod/vendor_htc_inc" remote="github" revision="master" />
+  <project path="vendor/htc/supersonic" name="vendor_htc_supersonic" remote="sz" />
   <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" />
   <project path="vendor/htc" name="android_vendor_htc" remote="sz"/>
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sz" revision="refs/heads/master" />
