@@ -33,7 +33,6 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="sz" revision="master"/>
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="android_external_clearsilver" remote="sz" revision="gingerbread" />
   <project path="external/dbus" name="platform/external/dbus" />
