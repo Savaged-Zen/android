@@ -58,7 +58,6 @@ Install the Repository
 -----You may need to reboot for these changes to take effect. 
 
 
-==================================================
 Now enter the following to initialize the repository:
 
 -----cd ~/android/system/ 
