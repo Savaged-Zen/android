@@ -8,7 +8,7 @@ Getting Started
 Install the ADB
 
 
------Install the Android SDK. 
+-----Install the Android SDK. [Google SDK Download](http://developer.android.com/sdk).
 
 Install the Build Packages
 --------------------------
@@ -28,7 +28,7 @@ Install the Build Packages
 ----------sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner" 
 
 
-==================================================
+
 
 
 Create the Directories
@@ -41,9 +41,6 @@ Create the Directories
 ---------------mkdir -p ~/bin 
 
 ---------------mkdir -p ~/android/system 
-
-
-==================================================
 
 
 Install the Repository
@@ -69,7 +66,6 @@ Then to start the Sync. (This is gonna take awhile 2+ GB's to download.
 -----repo sync 
 
 
-==================================================
 Submitting Patches
 ------------------
 Patches are always welcome!  Please submit your patches via Savaged-Zen Gerrit!
