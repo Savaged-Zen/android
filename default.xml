@@ -175,6 +175,6 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/savagedzen" name="platform_vendor_SavagedZen" remote="sz" />
+  <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" />
   <project path="android" name="android" remote="sz" />
 </manifest>
