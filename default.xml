@@ -6,7 +6,7 @@
 
 <remote name="sz"
            fetch="git://github.com/Savaged-Zen/"
-           review="review.savaged-zen.org" />
+           review="review.savaged-zen.com" />
  <default revision="gingerbread"
            remote="korg" />
 
