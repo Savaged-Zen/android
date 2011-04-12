@@ -7,7 +7,11 @@
 <remote name="sz"
            fetch="git://github.com/Savaged-Zen/"
            review="review.savaged-zen.com" />
- <default revision="gingerbread"
+
+<remote name="themes"
+	    fetch="git://github.com/tmobile"/>
+
+<default revision="gingerbread"
            remote="korg" />
 
     <project path="build" name="android_build" remote="sz" >
@@ -182,4 +186,12 @@
   <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" />
   <project path="vendor/htc" name="android_vendor_htc" remote="sz" />
   <project path="android" name="android" remote="sz" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
+
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
+
 </manifest>
