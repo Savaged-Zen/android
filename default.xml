@@ -187,7 +187,7 @@
   <project path="vendor/htc" name="android_vendor_htc" remote="sz" />
   <project path="android" name="android" remote="sz" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="themes" revision="refs/heads/master" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sz" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/providers/ThemeManager" 
 name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="sz" 
