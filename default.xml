@@ -194,7 +194,7 @@ remote="sz" revision="refs/heads/master" />
   <project path="vendor/tmobile/providers/ThemeManager" 
 name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="sz" 
 revision="refs/heads/master" />
-  <project path="vendor/tmobile/themes/Androidian-6/100" name="theme-Androidian" remote="sz" revision="refs/heads/master" />
+  <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian" remote="sz" revision="refs/heads/master" />
 
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
 
