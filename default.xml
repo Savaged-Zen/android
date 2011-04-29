@@ -14,10 +14,10 @@
 <default revision="refs/tags/android-2.3.4_r1"
            remote="korg" />
 
-    <project path="build" name="android_build" remote="sz" >
+    <project path="build" name="android_build" remote="sz" revision="gingerbread">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform_bionic" remote="sz"/>
+  <project path="bionic" name="platform/bionic"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -25,18 +25,18 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="sz" />
-  <project path="device/htc/inc" name="android_device_htc_inc" remote="sz" />
+  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="sz" revision="gingerbread"/>
+  <project path="device/htc/inc" name="android_device_htc_inc" remote="sz" revision="gingerbread"/>
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform_external_bluez" remote="sz" />
+  <project path="external/bluetooth/bluez" name="platform_external_bluez" remote="sz" revision="gingerbread"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="sz" />
+  <project path="external/busybox" name="android_external_busybox" remote="sz" revision="gingerbread"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
@@ -53,7 +53,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform_external_flac" remote="sz" />
+  <project path="external/flac" name="platform_external_flac" remote="sz" revision="gingerbread"/>
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -93,7 +93,7 @@
   <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform_external_skia" remote="sz"/>
+  <project path="external/skia" name="platform_external_skia" remote="sz" revision="gingerbread"/>
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -112,12 +112,12 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="sz"/>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="sz" revision="gingerbread"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sz" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote='sz'/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sz" revision="gingerbread"/>
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote='sz'revision="gingerbread"/>
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sz" revision="gingerbread" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sz" revision="gingerbread" />
@@ -127,21 +127,21 @@
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="sz" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform_packages_apps_camera" remote="sz" />
+  <project path="packages/apps/Camera" name="platform_packages_apps_camera" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Email" name="platform_packages_apps_email" remote="sz"/>
-  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="sz"/>
+  <project path="packages/apps/Email" name="platform_packages_apps_email" remote="sz" revision="gingerbread"/>
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_SZLauncher" remote="sz" />
-  <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="sz" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_SZLauncher" remote="sz" revision="gingerbread"/>
+  <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -149,17 +149,17 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/SZDialer" name="platform_packages_apps_SZDialer" remote="sz" />
-  <project path="packages/apps/SZParts" name="android_packages_apps_SZParts" remote="sz" />
-  <project path="packages/apps/SZWallpapers" name="apps_SZ_Wallpapers" remote="sz" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sz" />
+  <project path="packages/apps/SZDialer" name="platform_packages_apps_SZDialer" remote="sz" revision="gingerbread"/>
+  <project path="packages/apps/SZParts" name="android_packages_apps_SZParts" remote="sz" revision="gingerbread"/>
+  <project path="packages/apps/SZWallpapers" name="apps_SZ_Wallpapers" remote="sz" revision="gingerbread"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="sz" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="sz" />
-  <project path="packages/apps/Terminal" name="android_packages_apps_TerminalVT100" remote="sz" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="sz" revision="gingerbread"/>
+  <project path="packages/apps/Terminal" name="android_packages_apps_TerminalVT100" remote="sz" revision="gingerbread"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
@@ -168,10 +168,10 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="sz"/>
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="sz" revision="gingerbread"/>
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="sz"/>
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="sz" revision="gingerbread"/>
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
@@ -181,15 +181,15 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform_system_core" remote="sz" />
-  <project path="system/extras" name="android_system_extras" remote="sz" />
+  <project path="system/core" name="platform_system_core" remote="sz" revision="gingerbread"/>
+  <project path="system/extras" name="android_system_extras" remote="sz" revision="gingerbread"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="sz" />
-  <project path="android" name="android" remote="sz" />
+  <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" revision="gingerbread"/>
+  <project path="vendor/htc" name="android_vendor_htc" remote="sz" revision="gingerbread"/>
+  <project path="android" name="android" remote="sz" revision="gingerbread"/>
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sz" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" 
