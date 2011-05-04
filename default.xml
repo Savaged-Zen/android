@@ -141,7 +141,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/ADWLauncher2" name="ADWLauncher2" remote="sz" revision="transitions" />
+  <project path="packages/apps/Launcher2" name="platform_packages_apps_SZLauncher" remote="sz" />
   <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="sz" revision="gingerbread" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -162,6 +162,7 @@
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="sz" />
   <project path="packages/apps/Terminal" name="android_packages_apps_TerminalVT100" remote="sz" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/WiMAXSettings" name="platform_packages_apps_WiMAXSettings" remote="sz" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
