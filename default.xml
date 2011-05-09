@@ -153,6 +153,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SZDialer" name="platform_packages_apps_SZDialer" remote="sz" />
   <project path="packages/apps/SZParts" name="android_packages_apps_SZParts" remote="sz" />
+  <project path="packages/apps/SZStats" name="platform_packages_apps_SZStats" remote="sz" />
   <project path="packages/apps/SZWallpapers" name="apps_SZ_Wallpapers" remote="sz" />
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sz" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
