@@ -26,6 +26,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="sz" />
+  <project path="device/htc/vision" name="android_device_htc/vision" remote="sz" />
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="sz" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="sz" />
   <project path="external/apache-http" name="platform/external/apache-http" />
