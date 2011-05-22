@@ -193,7 +193,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="sz" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="sz" />
   <project path="android" name="android" remote="sz" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="sz" revision="refs/heads/master" />
