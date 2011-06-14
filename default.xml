@@ -25,6 +25,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
+  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="sz" />
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="sz" />
   <project path="device/htc/vision" name="android_device_htc_vision" remote="sz" />
   <project path="device/htc/glacier" name="android_device_htc_glacier" remote="sz" />
