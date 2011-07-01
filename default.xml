@@ -195,6 +195,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="sz"/>
   <project path="vendor/savagedzen" name="android_vendor_SavagedZen" remote="sz" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="sz" />
   <project path="android" name="android" remote="sz" />
